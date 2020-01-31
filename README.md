@@ -1,7 +1,7 @@
 # Enum-from-Metadata-for-EspoCRM
 Enum (select) type field that is populated by data extracted from metadata.
 
-With this plug-in is possible to get any linked or unlinked entity field options to populate an enum element.
+With this plug-in is possible to get from metadata, any linked or unlinked entity field options to populate an enum element.
 
 ## Usage instructions:
 
