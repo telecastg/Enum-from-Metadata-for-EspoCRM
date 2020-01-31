@@ -23,7 +23,7 @@ Example:
 
 In the example below, the target entity is a custom entity that contains one (select) element called "invoiceItemCategory" which offers the following options: ["Laptops", "Tablets", "Power Supplies"]
 
-That same target entity contains another enum (select) element called "SkuOptions" that depending on the selection made of "incoiveItemCategory" should list the "SkuOptions" correponding to the category chosen.
+That same target entity contains another enum (select) element called "SkuOptions" that depending on the selection made of "invoiceItemCategory" should list the "SkuOptions" correponding to the category chosen.
 
 "Laptops", "Tablets", "Power Supplies" are different custom entities and they all contain a field called "sku" that has an attribute called "options" which is an array of the different skus available for that product category.
 
