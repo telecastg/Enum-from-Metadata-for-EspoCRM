@@ -25,7 +25,7 @@ That same target entity contains another enum (select) element called "SkuOption
 
 "Laptops", "Tablets", "Power Supplies" are different custom entities and they all contain a field called "sku" that has an attribute called "options" which is an array of the different skus available for that product category.
 
-Values surrounded by placeholders "@@{{" and "/}}@@ will be evaluated as javascript expressions to return a value corresponding to the entity, field or attribute desired.
+Values surrounded by placeholders "@@{{" and "/}}@@" will be evaluated as javascript expressions to return a value corresponding to the entity, field or attribute desired.
 
 Custom Entity enityDefs:
 
