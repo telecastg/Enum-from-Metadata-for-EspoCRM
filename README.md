@@ -61,5 +61,5 @@ Custom Entity enityDefs:
 	 
 }   
 
-When an "invoiceItemCategory" is chosen from the list, the select element (enum) "SkuOptions" will be populated with the values of the options for the "sku" field in the category custom entity.
+When an "invoiceItemCategory" is chosen from the list, the select element (enum) "SkuOptions" will be populated with the values of the options for the "sku" field in the chosen category custom entity.
 
