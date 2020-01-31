@@ -3,9 +3,7 @@ Enum (select) type field that is populated by data extracted from metadata.
 
 With this plug-in is possible to get any linked or unlinked entity field options to populate an enum element.
 
-Usage instructions:
-
-Instructions to use:
+## Usage instructions:
 
 Go to Administration >> Entity Manager and select your target Entity, then click the "Fields" link.
 Click "Add Field" and select "Enum from Metadata".
@@ -19,7 +17,7 @@ To specify the Entity, field and options ("control entity") where the informatio
 
 3.- "independentVariableFieldAttribute" - The name of the "control field" attribute, or the javascript expression that will yield the name of the attribute  (the "control attribute") from where the values for the "target entity" Enum list will be retrieved.
 
-Example: 
+## Example: 
 
 In the example below, the target entity is a custom entity that contains one (select) element called "invoiceItemCategory" which offers the following options: ["Laptops", "Tablets", "Power Supplies"]
 
@@ -33,17 +31,17 @@ Custom Entity enityDefs:
 
 "fields": {
 
-"invoiceItemCategory": {
+    "invoiceItemCategory": {
 
-   "type": "enum",
+    "type": "enum",
 	 
-   "required": true,
+    "required": true,
 	 
-   "options": ["Laptops", "Tablets", "Power Supplies"]
+    "options": ["Laptops", "Tablets", "Power Supplies"]
 	 
-   },
+    },
    
-   "SkuOptions": {
+    "SkuOptions": {
 	 
       "type": "enum-from-metadata",
 			
