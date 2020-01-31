@@ -57,7 +57,7 @@ Custom Entity enityDefs:
       
       "independentVariableFieldAttribute": "options"
 			 
-   }  
+    }  
 	 
 }   
 
