@@ -27,7 +27,7 @@ That same target entity contains another enum (select) element called "SkuOption
 
 Values surrounded by placeholders "@@{{" and "/}}@@" will be evaluated as javascript expressions to return a value corresponding to the entity, field or attribute desired.
 
-Custom Entity enityDefs:
+Custom Entity entityDefs:
 
 "fields": {
 
