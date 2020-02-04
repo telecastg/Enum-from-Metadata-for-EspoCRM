@@ -19,13 +19,13 @@ To specify the Entity, field and options ("control entity") where the informatio
 
 ## Example: 
 
-In the example below, the target entity ("CustomOrder entity") is a custom entity that contains one enum (select) element called "invoiceItemCategory" which offers the following options: ["Laptops", "Tablets", "Power Supplies"] and another enum (select) element called "skuOptions".
+In the example below, the target entity ("CustomOrder") is a custom entity that contains one enum (select) element called "invoiceItemCategory" which offers the following options: ["Laptops", "Tablets", "Power Supplies"] and another enum (select) element called "skuOptions".
 
 "Laptops", "Tablets", "Power Supplies" are themselves different custom entities and they all have a field called "sku" that has an attribute called "options" which is an array of the different skus available for that product category.
 
 Depending on the option chosen for enum "invoiceItemcategory", the enum "skuOptions" should only dislay the "sku" options avalable for the "invoiceItemCategory" entity.
 
-For example, if entity "Laptops" has "sku" options ["Chrome","Windows","MacOs","Linux"] when "Laptops" is selected in the "invoiceItemCategory" enum, then "skuOptions" enum options will be limited to "Chrome","Windows","MacOs" and "Linux".
+For example, if entity "Laptops" has "sku" options ["Chrome","Windows","MacOs","Linux"] when "Laptops" is selected in the "invoiceItemCategory" enum, then "skuOptions" enum options will display "Chrome","Windows","MacOs" and "Linux".
 
 See the example entityDefs script below, values surrounded by placeholders "@@{{" and "/}}@@" will be evaluated as javascript expressions to return a value corresponding to the entity, field or attribute desired.
 
