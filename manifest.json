@@ -1,0 +1,10 @@
+{
+    "name": "Enum from Metadata Field Type",
+    "version": "1.0.1",
+    "acceptableVersions": [
+        ">=5.7.8"
+    ],
+    "releaseDate": "2020-01-30",
+    "author": "Omar A Gonsenheim",
+    "description": "Enum Field Type that can be populated by data extracted from metadata for EspoCRM"
+}
